@@ -38,7 +38,7 @@ Start the Docker container:
 ```docker run -it --rm \
    -v "$(pwd)":/app \
    -w /app \
-   spark /bin/bash
+   spark /bin/bash```
 
 ### Running Jupyter Notebook Files
 Install Jupyter Notebook (if not included in your requirements.txt):
