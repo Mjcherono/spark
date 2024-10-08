@@ -16,6 +16,9 @@ env.bak/
 *.pid
 *.db
 
+# Ignore Excel files
+Online_Retail.xlsx
+
 # Ignore data files
 data/
 *.csv
