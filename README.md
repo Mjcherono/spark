@@ -48,13 +48,12 @@ Install Jupyter Notebook (if not included in your requirements.txt):
 
 Start Jupyter Notebook:
     ```jupyter notebook --ip=0.0.0.0 --allow-root
-
     ```pip install -r requirements.txt
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request.
 
-### License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
  Key Changes:
