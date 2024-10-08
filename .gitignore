@@ -27,6 +27,9 @@ data/
 *.swp
 *.swo
 
+# Ignore Excel files
+*.xlsx
+
 # Python packages
 *.egg
 *.egg-info/
