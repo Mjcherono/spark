@@ -50,3 +50,13 @@ jupyter notebook --ip=0.0.0.0 --allow-root
 #### install requirements
 pip install -r requirements.txt
 
+#### Contributing
+Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request.
+
+#### License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+### Key Changes:
+- Updated the **Pulling the Docker Image** section to pull the Spark Docker image directly.
+  
+Feel free to make any additional adjustments, and let me know if you need further modifications or help!
