@@ -36,7 +36,7 @@ Clone this repository:
     ```cd spark  # Replace with 'spark' if you cloned it directly
 
 Start the Docker container:
-    ```docker run -it --rm -v "$(pwd)":/app -w /app spark /bin/bash
+    ``` docker run -it --rm -v "$(pwd)":/app -w /app spark /bin/bash
 
 ## Installation
 Running Jupyter Notebook Files
