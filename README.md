@@ -24,33 +24,34 @@ All project-specific dependencies are listed in the `requirements.txt` file.
 ## Docker Setup
 To get started, you'll need to set up Docker. If you haven't already installed Docker, follow the instructions on the [official Docker documentation](https://docs.docker.com/get-docker/).
 
-### Pulling the Docker Image
+ Pulling the Docker Image
 1. Pull the official Spark Docker image:
    ```bash
    docker pull spark
 
-### Running the Docker Image
+ 2. Running the Docker Image
+
 Clone this repository:
-git clone https://github.com/Mjcherono/spark.git
-cd spark  # Replace with 'spark' if you cloned it directly
+      ```git clone https://github.com/Mjcherono/spark.git
+      ```cd spark  # Replace with 'spark' if you cloned it directly
 
 Start the Docker container:
-```docker run -it --rm \
-   -v "$(pwd)":/app \
-   -w /app \
-   spark /bin/bash```
+    ```docker run -it --rm \
+    -v "$(pwd)":/app \
+    -w /app \
+    spark /bin/bash
 
-### Running Jupyter Notebook Files
+## Installation
+Running Jupyter Notebook Files
 Install Jupyter Notebook (if not included in your requirements.txt):
-```pip install notebook
+    ```pip install notebook
 
 Start Jupyter Notebook:
-jupyter notebook --ip=0.0.0.0 --allow-root
+    ```jupyter notebook --ip=0.0.0.0 --allow-root
 
-### install requirements
-```pip install -r requirements.txt
+    ```pip install -r requirements.txt
 
-### Contributing
+## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request.
 
 ### License
