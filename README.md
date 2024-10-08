@@ -32,8 +32,8 @@ To get started, you'll need to set up Docker. If you haven't already installed D
  2. Running the Docker Image
 
 Clone this repository:
-      ```git clone https://github.com/Mjcherono/spark.git
-      ```cd spark  # Replace with 'spark' if you cloned it directly
+    ```git clone https://github.com/Mjcherono/spark.git
+    ```cd spark  # Replace with 'spark' if you cloned it directly
 
 Start the Docker container:
     ```docker run -it --rm -v "$(pwd)":/app -w /app spark /bin/bash
